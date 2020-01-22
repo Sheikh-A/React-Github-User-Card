@@ -1,0 +1,82 @@
+html, body {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  background: blue;
+  color: #fff;
+}
+
+.App {
+  margin: 50px auto;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input {
+  background: white;
+  color: black;
+  border: 0;
+  outline: 0;
+  padding: 11px 10px;
+  margin-right: 10px;
+  font-size: 2rem;
+}
+
+button {
+  border: none;
+  background: black;
+  color: #fff;
+  padding: 11px 10px;
+  cursor: pointer;
+  box-shadow: 0 1px 6px -2px #000;
+}
+
+.card {
+  background: #eeeeee;
+  color: #393e46;
+  padding: 20px;
+  display: flex;
+  border-radius: 5px;
+  box-shadow: 0 1px 6px -2px #000;
+  margin-bottom: 30px;
+}
+
+.card .name {
+  margin: 0;
+	padding: 0;
+  font-size: 3.4rem;
+}
+
+.card .username {
+  font-size: 1.8rem;
+  font-style: italic;
+  margin: 3px 0 10px;
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 3px;
+  margin-right: 20px;
+  align-self: center;
+}
+
+.card p {
+  font-size: 1.4rem;
+  margin: 0;
+  padding: 0;
+}
+
+.card a {
+  color: #00adb5;
+}
